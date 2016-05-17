@@ -5,17 +5,5 @@ class Hola
   end
 end
 
-class Hola::Translator
-  def initialize(language)
-    @language = language
-  end  
+require 'hola_crwhitesides/translator'
 
-  def hi
-    case @language
-    when"spanish"
-      "Hola mundo!"
-    else
-      "Hello world!"
-    end
-  end
-end
