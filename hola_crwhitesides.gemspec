@@ -8,4 +8,5 @@ Gem::Specification.new do |s|
   s.email        = 'christian@crwhitesides.com'
   s.files        = ["lib/hola_crwhitesides.rb"]
   s.homepage     = 'http://rubygems.org/gems/hola_crwhitesides'
+  s.license      = 'MIT'
 end
